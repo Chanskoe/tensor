@@ -2,22 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>React App</title>
   </head>
   <body>
@@ -33,5 +28,341 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+  <header class="header">
+    <div class="player">
+      <button class="track-cover"></button>
+
+      <button class="track-title"></button>
+
+      <button class="rewind-track-toggle inverted"></button>
+
+      <button class="play-track-toggle"></button>
+
+      <button class="rewind-track-toggle"></button>
+
+      <button class="heart"></button>
+    </div>
+
+    <a class="logo" href="index.html">
+      <img class="logo-img" src="images/logo.png" alt="">
+    </a>
+
+    <div class="navbar">
+      <button class="search-toggle"></button>
+
+      <div class="nav-list">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Live</a>
+        <a class="nav-link" href="#">Music</a>
+        <a class="nav-link" href="#">Charts</a>
+        <a class="nav-link" href="#">Events</a>
+        <a class="nav-link" href="#">Features</a>
+      </div>
+
+      <a class="profile-photo" href="#"></a>
+    </div>
+  </header>
+
+  <main>
+    <h1>Music</h1>
+
+    <section class="sect-hot-tracks">
+      <h4 class="info">Hot right now</h4>
+
+      <div class="line"></div>
+
+      <div class="hot-tracks">
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">The Weeknd</p>
+          <span class="artist-genres">rnb · electronic · canadian</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">j-hope</p>
+          <span class="artist-genres">k-pop · hip-hop · korean</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">The Weeknd</p>
+          <span class="artist-genres">rnb · electronic · canadian</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">The Weeknd</p>
+          <span class="artist-genres">rnb · electronic · canadian</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">The Weeknd</p>
+          <span class="artist-genres">rnb · electronic · canadian</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">The Weeknd</p>
+          <span class="artist-genres">rnb · electronic · canadian</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">The Weeknd</p>
+          <span class="artist-genres">rnb · electronic · canadian</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">j-hope</p>
+          <span class="artist-genres">k-pop · hip-hop · korean</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">j-hope</p>
+          <span class="artist-genres">k-pop · hip-hop · korean</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">j-hope</p>
+          <span class="artist-genres">k-pop · hip-hop · korean</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">j-hope</p>
+          <span class="artist-genres">k-pop · hip-hop · korean</span>
+        </article>
+        <article class="artist">
+          <div class="artist-cover"></div>
+          <p class="artist-name">j-hope</p>
+          <span class="artist-genres">k-pop · hip-hop · korean</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="sect-popular-tracks">
+      <h4 class="info">Popular tracks</h4>
+
+      <div class="line"></div>
+
+      <div class="popular-tracks">
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article><article class="song">
+        <div class="song-cover"></div>
+        <div class="column">
+          <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+          <p class="song-artist">Balming Tiger</p>
+          <p class="song-genres">rap · hip hop · alternative</p>
+        </div>
+      </article><article class="song">
+        <div class="song-cover"></div>
+        <div class="column">
+          <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+          <p class="song-artist">Balming Tiger</p>
+          <p class="song-genres">rap · hip hop · alternative</p>
+        </div>
+      </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">That That(prod. & feat. SUGA of BTS)</p>
+            <p class="song-artist">Psy</p>
+            <p class="song-genres">suga · prod suga · feat suga</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">That That(prod. & feat. SUGA of BTS)</p>
+            <p class="song-artist">Psy</p>
+            <p class="song-genres">suga · prod suga · feat suga</p>
+          </div>
+        </article>
+        <article class="song">
+          <div class="song-cover"></div>
+          <div class="column">
+            <p class="song-title">SEXY NUKIM(feat. RM of BTS)</p>
+            <p class="song-artist">Balming Tiger</p>
+            <p class="song-genres">rap · hip hop · alternative</p>
+          </div>
+        </article>
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <ul class="links">
+        <li class="group-links">
+          <h5 class="links-info">COMPANY</h5>
+          <a class="link" href="#">About Last.fm</a>
+          <a class="link" href="#">Contact us</a>
+          <a class="link" href="#">Jobs</a>
+        </li>
+        <li class="group-links">
+          <h5 class="links-info">HELP</h5>
+          <a class="link" href="#">Track My Music</a>
+          <a class="link" href="#">Community Support</a>
+          <a class="link" href="#">Community Guidelines</a>
+          <a class="link" href="#">Help</a>
+        </li>
+        <li class="group-links">
+          <h5 class="links-info">GOODIES</h5>
+          <a class="link" href="#">Download Scrobbler</a>
+          <a class="link" href="#">Developer API</a>
+          <a class="link" href="#">Free Music Downloads</a>
+          <a class="link" href="#">Merchandise</a>
+        </li>
+        <li class="group-links">
+          <h5 class="links-info">ACCOUNT</h5>
+          <a class="link" href="#">Inbox</a>
+          <a class="link" href="#">Settings</a>
+          <a class="link" href="#">Last.fm Pro</a>
+          <a class="link" href="#">Logout</a>
+        </li>
+        <li class="group-links">
+          <h5 class="links-info">FOLLOW US</h5>
+          <a class="link" href="#">Facebook</a>
+          <a class="link" href="#">Twitter</a>
+          <a class="link" href="#">Instagram</a>
+          <a class="link" href="#">YouTube</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="line-footer"></div>
+
+    <div class="footer footer-flex">
+      <div>
+        <div class="languages">
+          <button class="language white">English</button>
+          <button class="language">Deutsch</button>
+          <button class="language">Español</button>
+          <button class="language">Français</button>
+          <button class="language">Italiano</button>
+          <button class="language">日本語</button>
+          <button class="language">Polski</button>
+          <button class="language">Português</button>
+          <button class="language">Русский</button>
+          <button class="language">Svenska</button>
+          <button class="language">Türkçe</button>
+          <button class="language">简体中文</button>
+        </div>
+
+        <p class="time-zone">Time zone: <span class="white">Europe/Moscow</span></p>
+
+        <p class="rights">
+          CBS Interactive © 2022 Last.fm Ltd. All rights reserved · Terms of Use · Privacy Policy · Legal Policies · Cookies Policy · Do Not Sell My Personal Information · Jobs at ViacomCBS · Last.fm Music
+        </p>
+      </div>
+
+      <div class="footer-logo">
+        <p class="footer-logo-1">Audioscrobbler</p>
+        <div class="footer-logo-2"></div>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>
