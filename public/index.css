@@ -155,7 +155,7 @@ main h1 {
     margin-bottom: 35px;
 }
 
-.hot-tracks {
+.hot-artists {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -164,7 +164,7 @@ main h1 {
 }
 
 .artist-cover {
-    background-color: #EBEBEB;
+    background-size: 100% 100%;
     height: 120px;
     width: 120px;
     border-radius: 100%;
@@ -197,7 +197,7 @@ main h1 {
 }
 
 .song-cover {
-    background-color: #EBEBEB;
+    background-size: 100% 100%;
     height: 50px;
     width: 50px;
 }
@@ -315,4 +315,13 @@ footer {
     background-size: 100% 100%;
     height: 14px;
     width: 26px;
+}
+
+/* Для себя одну адаптивку напишу, потому что неприятно смотреть на выезжающие теги, если хотя бы немного уменьшить требуемые 1024px (сейчас хотя бы все работает с 630px */
+
+@media (max-width: 847px) {
+    .hot-artists {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
